@@ -952,7 +952,7 @@ body{
      <nav>
        <a href="index.html"><img src="Img/Logo (2).png" class="logo" height="70px" width="150px" marigin-top="13px" alt="" /></a>
        <ul>
-         <a href="{{ url('/login') }} "><i class="fa-solid fa-right-to-bracket"></i></a>
+         <a href="{{ url('/login') }} ">login</a>
          <a href="#"><i class="fa-solid fa-bell"></i></a>
          <a href="#"><i class="fa-brands fa-facebook"></i></a>
          <a href="#"><i class="fa-brands fa-instagram"></i></a>
