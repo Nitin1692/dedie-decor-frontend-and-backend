@@ -41,7 +41,7 @@ Route::post('/login', function(){
     $registers->Password = request('Password');
     $registers->email = request('email');
     $registers->save();
-
+    echo '<script>alert("Account created Successfully")</script>';
 });
 
 
