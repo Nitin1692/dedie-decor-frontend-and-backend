@@ -794,7 +794,7 @@ body{
               <a href="{{ url('/experts') }}" id="Home">Experts</a>
             </ul>
             <ul>
-              <a href="products.html" id="Products">Products</a>
+              <a href="{ url('/product') }}" id="Products">Products</a>
             </ul>
             <ul>
               <a class="active" href="{{ url('/') }}" id="Experts">Home</a>
