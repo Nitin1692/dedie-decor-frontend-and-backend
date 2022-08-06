@@ -50,4 +50,5 @@ Route::post('/authenticate', function(){
     $registers = Registers::where('email', '=', request('email'))->first();
     Auth::loginUsingId($registers->id, TRUE);
     return redirect('/');
+    
 });
