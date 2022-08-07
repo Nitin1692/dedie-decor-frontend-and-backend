@@ -84,6 +84,6 @@ class registersController extends Controller
     {
         //
     }
-     
+    
     
 }
