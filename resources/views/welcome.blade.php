@@ -957,7 +957,7 @@ body{
          <a href="#"><i class="fa-brands fa-facebook"></i></a>
          <a href="#"><i class="fa-brands fa-instagram"></i></a>
          <ul>
-           <a href="{ url('/experts') }}" id="Home">Experts</a>
+           <a href="{{ url('/experts') }}" id="Home">Experts</a>
          </ul>
          <ul>
            <a href="{{ url('/product') }} " id="Products">Products</a>
