@@ -794,7 +794,7 @@ body{
               <a href="{{ url('/experts') }}" id="Home">Experts</a>
             </ul>
             <ul>
-              <a href="{ url('/product') }}" id="Products">Products</a>
+              <a href="{{ url('/product) }}" id="Products">Products</a>
             </ul>
             <ul>
               <a class="active" href="{{ url('/') }}" id="Experts">Home</a>
@@ -818,7 +818,7 @@ body{
       <p class="Expert1">Art & Magical Decor🎇<br>
         Owner: @smita.kaushik174 Art: @artsysony <br>
         DM for any enquiries📩</p>
-      <h5><a href="https://youtube.com/c/SmitaK" class="afflitate1">Crafty Soni's Youtube channel</a></h5>
+      <h5><a href="https://youtube.com/c/SmitaK" class="afflitate1">Crafty's Soni Youtube channel</a></h5>
       <a href="https://instagram.com/craftysoni?igshid=YmMyMTA2M2Y=" title="Contact Through Instagram"><i class="fa-solid fa-arrow-left-long fa-2xl rod"></i></i></a>
       <h6 class="quote1">Design By Crafty Soni</h6>
   </div>
