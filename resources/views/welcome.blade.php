@@ -950,7 +950,7 @@ body{
   <section class="header" aria-label="Newest Photos">
      
      <nav>
-       <a href="{ url('/') }}"><img src="Img/Logo (2).png" class="logo" height="70px" width="150px" marigin-top="13px" alt="" /></a>
+       <a href="{{ url('/') }}"><img src="Img/Logo (2).png" class="logo" height="70px" width="150px" marigin-top="13px" alt="" /></a>
        <ul>
          <a href="{{ url('/login') }} ">login</a>
          <a href="#"><i class="fa-solid fa-bell"></i></a>
@@ -963,7 +963,7 @@ body{
            <a href="{{ url('/product') }} " id="Products">Products</a>
          </ul>
          <ul>
-           <a class="active" href="{ url('/') }}" id="Experts">Home</a>
+           <a class="active" href="{{ url('/') }}" id="Experts">Home</a>
          </ul>
        </ul>
      </nav>
